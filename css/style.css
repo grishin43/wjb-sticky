@@ -1,0 +1,54 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+[class*=col-]{
+    float: left;
+}
+
+.col-12{
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width:750px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width:970px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width:auto
+    }
+    .col-desc-6{
+        width: 50%;
+    }
+}
+
+#content {
+    background: #eee;
+}
+
+.left-col {
+    background: #ffc3c3;
+    height: 300px;
+}
+
+.right-col {
+    background: #d0d0ff;
+    height: 100px;
+}
